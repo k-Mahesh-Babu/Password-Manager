@@ -18,14 +18,6 @@ const Manager = () => {
         if (storedPasswords) {
             setinf(JSON.parse(storedPasswords));  // Set passwords to state
         }
-        if (!window.__effect_ran__) {
-            let a = prompt("Enter the password: ")
-            while (a!="Mahesh@2007") {
-                a = prompt("Enter the password: ")
-            }
-            window.__effect_ran__ = true; // Mark as ran
-          }       
-    }, []);
 
     const { register, handleSubmit, reset, setValue, formState: { errors }
     } = useForm();

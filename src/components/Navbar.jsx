@@ -7,7 +7,7 @@ const Navbar = () => {
                 &lt;<span className="text-white">Pass</span><span >OP</span>/&gt;
             </div>
             <button className='flex items-center gap-2 text-lg border border-white rounded-full p-[4px] text-white'>
-                <a href="https://github.com/k-Mahesh-Babu">
+                <a class="flex gap-2" href="https://github.com/k-Mahesh-Babu">
                  <div><svg
                     xmlns="http://www.w3.org/2000/svg"
                     aria-label="GitHub"

@@ -32,11 +32,11 @@ const Manager = () => {
 
 
     const Pass = () => {
-        if (ref.current.src == "http://localhost:5173/assets/eye.svg") {
-            ref.current.src = "assets/eyecross.svg"
+        if (ref.current.src == "/Password-Manager/assets/eye.svg") {
+            ref.current.src = "/Password-Manager/assets/eyecross.svg"
 
         } else {
-            ref.current.src = "assets/eye.svg"
+            ref.current.src = "/Password-Manager/assets/eye.svg"
         }
         setpassvisible(!passvisible)
     }
@@ -165,7 +165,7 @@ const Manager = () => {
                         <div className='relative  flex sm:flex-row flex-col  justify-between gap-4 '>
                             <input {...register("username")} ref={(e) => { register("username").ref(e); userinput.current = e; }} className='h-[35px] w-100% sm:w-[63%] border border-[#bcffbc] outline-none focus:border-[#225322] rounded-full pl-3 bg-[#f9fff9]' type="text" placeholder='Enter UserName' />
                             <input {...register("password")} ref={(e) => { register("password").ref(e); passinput.current = e; }} className='h-[35px] border w-100% sm:w-[35%] border-[#bcffbc] outline-none focus:border-[#225322] rounded-full pl-3 bg-[#f9fff9]' type={passvisible ? "text" : "password"} placeholder='Enter Password' />
-                            <img ref={ref} onClick={Pass} className='cursor-pointer absolute sm:right-2 sm:top-1 right-[7px] top-[54px] w-[25px] h-[25px] ' src="assets/eyecross.svg" alt="" />
+                            <img ref={ref} onClick={Pass} className='cursor-pointer absolute sm:right-2 sm:top-1 right-[7px] top-[54px] w-[25px] h-[25px] ' src="/Password-Manager/assets/eyecross.svg" alt="" />
 
                         </div>
                         <button type="submit" className='px-3 my-3 max-w-[100px] m-auto font-semibold text-base flex items-center gap-2 bg-green-300 p-[6px] rounded-full border border-1'>

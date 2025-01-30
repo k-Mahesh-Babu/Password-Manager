@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/deploy-github/",
+  base:"/Password-Manager/",
+  build:{
+    outDir:'dist',
+  },
   plugins: [react()],
 })
+

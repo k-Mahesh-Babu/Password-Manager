@@ -1,12 +1,12 @@
 {
-  "homepage": "https://github.com/Mahesh3-2/Password_Manager.git",
+  "homepage": "https://github.com/K-Mahesh-Babu/Password-Manager.git",
   "name": "password-manager",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

@@ -7,7 +7,7 @@ const Navbar = () => {
                 &lt;<span className="text-white">Pass</span><span >OP</span>/&gt;
             </div>
             <button className='flex items-center gap-2 text-lg border border-white rounded-full p-[4px] text-white'>
-                <img  src="assets/Gitlogo.svg" alt="" />
+                <img  src="/Password-Manager/assets/Gitlogo.svg" alt="" />
                 <span>GitHub</span>
             </button>
         </div>
